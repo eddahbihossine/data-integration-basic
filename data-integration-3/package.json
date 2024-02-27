@@ -1,0 +1,21 @@
+{
+  "name": "data-integration-3",
+  "version": "1.0.0",
+  "description": "this is for my training on data integration",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "data",
+    "interview",
+    "idk\\"
+  ],
+  "author": "eddahbi elhoussaine",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.1.0"
+  }
+}

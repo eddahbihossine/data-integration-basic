@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather api </title>
+</head>
+<body>
+   <img src="" alt="" id="img" width="80%">
+</body>
+<script>
+    console.log("hello");
+    //  fecthing the image from the server
+    async function get_image()
+    {
+        const response = await fetch('wallpaper.jpg');
+        const blob = await response.blob();
+        document.getElementById('img').src = URL.createObjectURL(blob);
+    }
+    get_image();
+</script>
+</html>
